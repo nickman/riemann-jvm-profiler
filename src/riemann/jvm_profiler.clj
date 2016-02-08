@@ -11,7 +11,7 @@
 (def tags ["jvm" "profile"])
 
 (defn format-prefix [prefix]
-  (if (= prefix "") "" (str (string/trim prefix) " ")))
+  (if (= prefix "") "" (str (string/replace prefix #" " "") " ")))
 
 
 (defn report

@@ -10,5 +10,5 @@
                  [clj-radix "0.1.0"]
                  [http-kit "2.1.16"]
                  [clj-time "0.7.0"]]
-  :java-source-paths ["src/riemann"]
+  :java-source-paths ["src"]
   :manifest {"premain-Class" "riemann.jvm_profiler.Agent"})
